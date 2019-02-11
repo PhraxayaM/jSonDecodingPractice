@@ -12,6 +12,8 @@
 		CD14EE39220E6EA900FC3420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD14EE37220E6EA900FC3420 /* Main.storyboard */; };
 		CD14EE3B220E6EAD00FC3420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD14EE3A220E6EAD00FC3420 /* Assets.xcassets */; };
 		CD14EE3E220E6EAD00FC3420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD14EE3C220E6EAD00FC3420 /* LaunchScreen.storyboard */; };
+		CD14EE46220E6EC900FC3420 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14EE45220E6EC900FC3420 /* File.swift */; };
+		CD14EE48220E6EEA00FC3420 /* festival.json in Sources */ = {isa = PBXBuildFile; fileRef = CD14EE47220E6EEA00FC3420 /* festival.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CD14EE3A220E6EAD00FC3420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD14EE3D220E6EAD00FC3420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD14EE3F220E6EAD00FC3420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD14EE45220E6EC900FC3420 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		CD14EE47220E6EEA00FC3420 /* festival.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = festival.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CD14EE3A220E6EAD00FC3420 /* Assets.xcassets */,
 				CD14EE3C220E6EAD00FC3420 /* LaunchScreen.storyboard */,
 				CD14EE3F220E6EAD00FC3420 /* Info.plist */,
+				CD14EE45220E6EC900FC3420 /* File.swift */,
+				CD14EE47220E6EEA00FC3420 /* festival.json */,
 			);
 			path = jsonPractice;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD14EE36220E6EA900FC3420 /* ViewController.swift in Sources */,
+				CD14EE46220E6EC900FC3420 /* File.swift in Sources */,
 				CD14EE34220E6EA900FC3420 /* AppDelegate.swift in Sources */,
+				CD14EE48220E6EEA00FC3420 /* festival.json in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
